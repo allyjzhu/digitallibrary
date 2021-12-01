@@ -1,0 +1,74 @@
+@font-face {
+    font-family: Cotham;
+    src: url(fonts/CothamSans.otf);
+}
+
+html{
+    height: 100%;
+    width: 100%;
+    background-color: #D1D1D1;
+    margin: 0;
+}
+h1{
+    font-family: Cotham;
+    color: black;
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 30pt;
+}
+
+.title, h1{
+    width: 50px;
+    word-break:normal;
+    display: flex;
+    line-height: 60px;
+    position: absolute;
+    z-index: 1;
+    padding-left: 0px;
+}
+
+.title, img{
+    height: 100%;
+    padding-left: 50px;
+    position: absolute;
+    z-index: 0;
+}
+
+#navbar{
+    white-space: nowrap;
+    float: right;
+    padding-right: 5%;
+    padding-top: 20px;
+    font-family: Raleway;
+}
+
+.index, .about{
+    display:inline-block;
+}
+
+.index:hover{
+    cursor:pointer;
+    letter-spacing: 4px;
+    transition: 0.3s;
+}
+.about:hover{
+    cursor:pointer;
+    letter-spacing: 4px;
+    transition:0.3s;
+}
+
+p{
+    font-family: Raleway;
+    font-size: 12pt;
+}
+
+.description{
+    display: block;
+    margin-left: 40%;
+    margin-top: 0%;
+    margin-right: 7%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

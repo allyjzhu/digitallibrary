@@ -1,0 +1,151 @@
+@font-face {
+    font-family: Cotham;
+    src: url(fonts/CothamSans.otf);
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    margin:0;
+    overflow:scroll;
+}
+
+h1{
+    font-family: Cotham;
+    color: black;
+    padding-top: 20px;
+    padding-left: 50px;
+    font-size: 30pt;
+}
+
+.title, h1{
+    width: 50px;
+    word-break:normal;
+    display: flex;
+    line-height: 60px;
+    position: absolute;
+    z-index: 1;
+}
+
+.title, img{
+    height: 100%;
+    padding-left: 0px;
+    position: absolute;
+    z-index: 0;
+}
+
+#navbar{
+    white-space: nowrap;
+    float: right;
+    padding-right: 5%;
+   padding-top: 50px;
+    font-family: Raleway;
+}
+
+.index, .about{
+    display:inline-block;
+}
+
+.index:hover{
+    cursor:pointer;
+    letter-spacing: 4px;
+    transition: 0.3s;
+}
+.about:hover{
+    cursor:pointer;
+    letter-spacing: 4px;
+    transition:0.3s;
+}
+h2{
+    font-family: Cotham;
+    font-size: 13pt;
+}
+h3{
+    font-family: Raleway;
+    font-size: 12pt;
+}
+.librarylinks{
+    padding-left: 350px;
+    padding-right: 20px;
+    display: block;
+    justify-content: space-between;
+    align-content:flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+#link1, #link2, #link3, #link4, #link5, #link6, #link7, #link8, #link9, #link10{
+    width: 35%;
+    padding-bottom: 20px;
+
+}
+
+#link1:hover{
+    text-shadow: 3px 5px 5px #7aeb7a;
+}
+#link2:hover{
+    text-shadow: 0 5px 5px #7aeb7a;
+}
+#link3:hover{
+    text-shadow: 0 5px 5px #7aeb7a;
+}
+#link4:hover{
+    text-shadow: 0 5px 5px #7aeb7a;
+}
+#link5:hover{
+    text-shadow: 0 5px 5px #7aeb7a;
+}
+#link6:hover{
+    text-shadow: 0 5px 5px #7aeb7a;
+}
+#link7:hover{
+    text-shadow: 0 5px 5px #7aeb7a;
+}
+#link8:hover{
+    text-shadow: 0 2px 2px #7aeb7a;
+}
+#link9:hover{
+    text-shadow: 0 2px 2px #7aeb7a;
+}
+
+#link10:hover{
+    text-shadow: 0 2px 2px #7aeb7a;
+}
+
+p{
+    font-family: Raleway;
+    font-size: 12pt;
+}
+
+.description{
+    display: block;
+    margin-left: 40%;
+    margin-top: 20%;
+    margin-right: 7%;
+}
+
+.sadlerarchive img{
+cursor: pointer;
+ width: 250px;
+ height: auto;
+ left: 70%;
+ top: 250px;
+position: relative;
+}
+
+.berkeley img{
+    width:200px;
+    height:auto;
+    left: 75%;
+    top: 500px;
+    position: relative;
+}
+
+
+
